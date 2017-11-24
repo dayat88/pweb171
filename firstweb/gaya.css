@@ -1,0 +1,61 @@
+h1{
+  color: #088A08;
+  text-align: center;
+}
+marquee{
+  font-size:2em;
+  color: #088A08;
+}
+body{
+  background-color: #2EFEF7;
+}
+#all{
+  width: 1000px;
+  margin: auto;
+
+  background-color: blac;
+}
+#judul{
+  width: 1000px;
+  margin: auto;
+  font-size: 2em;
+  background-color: red;
+}
+#isi{
+  width: 1000px;
+  font-family: fantasy;
+  margin: auto;
+  font-size: 2em;
+  background-color: blue;
+}
+#isi2{
+  width: 840px;
+  height: 1000px;
+  margin: auto;
+  background-color: white;
+  float: right;
+}
+#menu{
+  width: 150px;
+  height: 1000px;
+  margin: auto;
+  background-color: red;
+  float: left;
+}
+p{
+  text-align: center;
+  font-size:2em;
+}
+textarea{
+
+}
+Alucard <br>
+Alpha <br>
+Balmon <br>
+Kagura <br>
+Gatotkaca <br>
+Hilda <br>
+Franco <br>
+Tigreal <br>
+Hayabusa <br>
+gord <br>

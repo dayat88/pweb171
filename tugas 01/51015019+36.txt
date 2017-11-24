@@ -1,0 +1,12 @@
+jam 8:40
+
++10 tgs selesai
++2 perbedaan h1 judul web dan h1 judl lagu
++3 untuk setiap selector yg lebih dari 8 baris
+-mainmenubtn
++16 untuk setiap selector ke -6 dst
+
+-2 untuk setiap dead link (ga ada)
+-3 untuk setiap hlmn lagu tanpa back link
++5 untuk pengguna fungsi <div>
+total=36

@@ -1,0 +1,11 @@
+tgs masuk +10
+html +5
+css  +5
+tag html +2
+option css +14 
+selector css +18
+tag <img>+2
+selector dgn min 5 baris +4 
+total= 60
+
+

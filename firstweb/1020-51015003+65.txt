@@ -1,0 +1,9 @@
++10 tugas masuk
++4 tag html wajib
++5 option css wajib
++6 tag html tambahan
++8 option css tambahan
++18 selector css
++12 selector dgn min 5 baris option
++2 untuk tg <img>
+JUMLAH = 65

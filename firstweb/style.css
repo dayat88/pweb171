@@ -1,0 +1,51 @@
+body{
+  background-color: #849ee0;
+  margin: 15% 15%;
+  font-family: cursive;
+  background-image: url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-33.jpg");
+  background-position:center;
+
+}
+.button{
+  text-decoration: none;
+  color: #b2d565;
+  display: block;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 20px;
+  ba
+
+}
+.no-1{
+  background-color: #71f442;
+  text-shadow:1px 1px 2px black;
+  font-family: cursive;
+}
+.no-2{
+  background-color: #41a0f4;
+  text-shadow:1px 1px 2px black;
+  font-family: cursive;
+}
+.no-3{
+  background-color: #d84545;
+  text-shadow:1px 1px 2px black;
+  font-family: cursive;
+}
+h1{
+  text-shadow: 1px 1px 2px #62e6c2;
+  text-align: center;
+  color: #7337ee;
+  font-family: cursive;
+}
+h2{
+  color: #d04e3c;
+}
+h3{
+  text-align: left;
+  color: #c11733;
+}
+p{
+  color: #a21e1e;
+}
