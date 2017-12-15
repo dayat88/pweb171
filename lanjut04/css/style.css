@@ -1,6 +1,7 @@
 body {
-   background-color: #3b8a80;
-   font-family: "Shrikhand" cursive;
+
+  background: linear-gradient(to bottom right, #cc321d, #1525b1);
+  font-family: Verdana;
 }
 
 /* layout */
@@ -21,49 +22,66 @@ body {
   width: 75%;
   margin-left: 25%;
 }
-
+/* menu */
 
 .menu {
   width: 100%;
   margin-left: -40px;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-right: 15px;
+  border-left: 15px;
 }
 
 .menu li {
   list-style: none;
   margin: 6px;
   line-height: 40px;
-  background-color: #030303;
+  background: linear-gradient(to bottom right, #c1a829, #3bd713);
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-right: 15px;
+  border-left: 15px;
+ }
 
 .menu li a {
   text-decoration: none;
   color: #FFFFFF;
   display: block;
   box-shadow: 3px 3px #343537;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-right: 15px;
+  border-left: 15px;
 }
 
 .menu li a:hover {
   text-decoration: none;
-  color: #000000;
-  background-color: #58c837;
-  box-shadow: 5px 5px #343537;
+  color: #fffafa;
+  background-color: #b0f8fa;
+  box-shadow: 5px 5px #303030;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-right: 15px;
+  border-left: 15px;
 }
 
-.judulutama {
+/* content */ .judulutama {
 padding: 15px;
-background-color: #101212;
+background-color: #7de374;
 text-align: center;
-color: #fff;
-text-shadow: 3px 3px #343537;
-box-shadow: 5px 5px #5b6783;
+color: #e8dfdf;
+text-shadow: 3px 3px #2b2b2b;
+box-shadow: 5px 5px #474747;
 border-radius: 5px;
 }
 
 .bloklagu {
   width: 600px;
-  box-shadow: 5px 5px #5b6783;
-  background-color: #6cbfbd;
+  box-shadow: 5px 5px #2f2b2b;
+  background-color: #739ba1;
   border-radius: 7px;
   margin-left: auto;
   margin-right: auto;
@@ -75,6 +93,16 @@ border-radius: 5px;
   text-align: center;
   padding-bottom: 10px;
  }
+
+ #info
+  {
+    color: #000000;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: auto;
+    width: 600px;
+    padding: 10px;
+  }
 
 .boxgambar {
   width: 100%;
@@ -91,32 +119,25 @@ border-radius: 5px;
 }
 
 .judullagu {
-  color: #b171f2;
-  font-family: 'Shrikhand';
+  color: #000000;
+  font-family: 'Special Elite';
   text-shadow: 2px 2px #343537;
 }
 .tekslagu {
-  font-family: "Permanent Marker"cursive;
+  font-family: cursive;
+  color: #e4dce1;
+  background-color: #739ba1;
+
 }
 
-#copyright {
-  position: sticky;
+#copyright {   position: sticky;
   width: 100%;
   line-height: 30px;
   margin-bottom: 0px;
+  margin-top: 450px;
   background-color: #fff;
   text-align: center;
   font-size: 10px;
-}
-
-#info
-{
- color: #000000;
- font-weight: bold;
- margin-top: 40px;
- margin-left: auto;
- width: 600px;
- padding: 10px;
 }
 
 /* responsive layout */

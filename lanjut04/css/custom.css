@@ -1,0 +1,46 @@
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+  background: linear-gradient(to bottom right, #e30c0c, #000aff);
+  background-image: image("img/galaxy1.jpg");
+}
+
+
+h1{
+  color:#ffffff;
+}
+
+h2{
+  font-family: 'Special Elite';
+  color: #000000;
+  font-size: 20px;
+}
+
+p{
+  font-family: 'Special Elite';
+  color: #000000;
+  font-size: 15px;
+}
+
+.btn-primary{
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.btn-secondary{
+  color: #50c358;
+  background-color: #000000;
+  box-shadow: 3px 3px #454545;
+}
+
+.carousel-item {
+  background: linear-gradient(to bottom right, #e30c0c, #000aff);
+}
+
+#copyright {
+  position: sticky;
+  width: 100%;
+  line-height: 30px;
+  background-color: #000000;
+  text-align: center;
+  font-size: 10px;
+}

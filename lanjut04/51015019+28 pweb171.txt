@@ -1,0 +1,9 @@
++10 selesai tugas
++5  berhasil masuk template 
++5  untuk custom template
++16 selector
+-5  ga ada lagu
+-5 conten non-lagu
++2 copy right
+
+total = 28

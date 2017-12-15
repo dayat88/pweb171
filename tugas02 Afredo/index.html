@@ -2,9 +2,10 @@
 <html>
 <head>
   <title>Lagu Anak</title>
-  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
-
+  <script type="text/javascript" src="js/lagu.js"></script>
 </head>
 
 <body>
@@ -15,18 +16,30 @@
 
   <div class="sidemenu">
      <ul class="menu">
-       <li><a href="#">Pelangi</a></li>
-       <li><a href="#">Balonku</a></li>
-       <li><a href="#">Naik Kereta Api</a></li>
-       <li><a href="#">Cicak di Dinding</a></li>
+       <li><a href="#" onclick="tampilLagu('pelangi')">Pelangi</a></li>
+       <li><a href="#" onclick="tampilLagu('Balon')">Balonku</a></li>
+       <li><a href="#" onclick="tampilLagu('cicak')">cicak</a></li>
+       <li><a href="#" onclick="tampilLagu('kebunku')">kebunku</a></li>
+       <li><a href="#" onclick="tampilLagu('kereta')">kereta</a></li>
      </ul>
    </div>
 
+   <div class="sidemenu">
+ <ul class="menu">
+ 
+
+   <div id="info">
+      &lt;&lt; Klik menu untuk melihat lagu
+   </div>
+
+
   <div class="content">
+
   <div class="bloklagu" id="pelangi">
+
   <div class="boxgambar">
-  <img class="gambarlagu" src="img/pelangi.jpg">
-    </div>
+     <img class="gambarlagu" src="img/pelangi.jpg">
+  </div>
 
    <h1 class="judullagu">Pelangi</h1>
 
@@ -88,12 +101,10 @@
  <h1 class="judullagu">Kebunku</h1>
 
  <p class="tekslagu">
-   Lihat kebunku <br>
+     Lihat kebunku <br>
      penuh dengan bunga <br>
-     <br>
      Ada yang putih, <br>
      dan ada yang merah <br>
-      <br>
      Setiap hari <br>
      kusiram semua <br>
      mawar melati, <br>
@@ -110,7 +121,7 @@
  <h1 class="judullagu">Kereta</h1>
 
  <p class="tekslagu">
-   Naik kereta api  tut tut  tut <br>
+      Naik kereta api  tut tut  tut <br>
       Siapa hendak turut <br>
       Ke Bandung Surabaya <br>
       Bolehlah naik dengan percuma <br>
@@ -120,5 +131,27 @@
  <div id="copyright">    didesain oleh: Alfredo Hidayah.T &copy; 2017   </div>
 
 </div>
-</body>
+
+<script type="text/javascript">
+
+    counter = {
+   'pelangi':0,
+   'balon': 0,
+   'cicak':0,
+   'kebunku':0,
+   'kereta':0,
+ }
+ function tampilLagu( id ){
+ $(".bloklagu").hide();
+ $('#'+id).show();
+
+ counter[id]++;
+  $('#c'+id).html(counter[id]);
+
+
+ }
+ </script>
+
+
+    </body>
 </html>
